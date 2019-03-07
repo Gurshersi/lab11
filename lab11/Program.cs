@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab11
+ public delegate void MyDelegate();
+
+public class DelegateExercises 
 {
-    class Program
+    void Method3()
     {
-        static void Main(string[] args)
-        {
-        }
+        System.Console.WriteLine(MyDelegate.ToString());
     }
 }
